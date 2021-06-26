@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#particles-js{
+    background-color: #F5FFFA;
+    height: 100vh;
+}
+#docker-img{
+    position: absolute;
+    width: 350px;
+    height: 85px;
+    margin-top: 5px;
+    margin-left: 500px;
+}
+#div1{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 10px;
+    width: 1285px;
+    height: 75px;
+    opacity: 1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgb(160, 39, 39);
+    font-family: 'Courier New';
+}
+#div2{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 10px;
+    width: 1285px;
+    height: 510px;
+    opacity: 1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgb(160, 39, 39);
+    color: black;
+}
+#p1{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Courier New';
+}
+#input1{
+    background-color: #350101;;
+    height: 50px;
+    width: 700px;
+    margin-top: 12px;
+    margin-left: 25px;
+    opacity: 1;
+    border-style:ridge;
+    border-color:tomato;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: larger;
+    /* box-shadow: 5px 5px 50px tomato; */
+    outline: none;
+    font-family: 'Courier New';
+}
+#label1{
+    margin-top: 25px;
+    display:inline-block;
+    margin-left: 85px;  
+    font-weight: bolder;
+    font-size: large;
+    color: black
+    font-family: 'Courier New';
+    font-weight: 1500;
+}
+#button1{
+    margin-top: 12px;
+    width: 100px;
+    height: 50px;
+    margin-left: 25px;
+    background: transparent;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Courier New';
+}
+#button1:hover {
+    background-color: tomato;
+    color: black;
+  }
+  #div4{
+    position: absolute;
+    margin-left: 5px;
+    width: 1275px;
+    height: 450px;
+    /* background: transparent; */
+    background: transparent;
+    font-weight: bolder;
+    color: black;
+    font-size: 13px;
+    font-family: 'Courier New';
+  }

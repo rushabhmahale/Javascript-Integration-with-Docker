@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>TASK_7</title>
+</head>
+
+<body>
+    <!-- JAVASCRIPT PART -->
+    <script>
+        function task7() {
+
+            input = document.getElementById("input1").value
+
+            var req = new XMLHttpRequest();
+
+            req.open("GET", "http://192.168.0.111/cgi-bin/docker.py?x=" + input, true);
+
+            req.send();
+
+            req.onload = function () {
+                var output = req.responseText;
+                document.getElementById("div4").innerHTML = output;
+            }
+        }
+    </script>
+    
+    <!-- HTML PART -->
+    <div id="particles-js">
+        <img id="docker-img" src="docker1.png" alt="docker image">
+        <div id="div1">
+            <label id="label1" for="cmd">[root@localhost ~]#</label>
+            <input id="input1" type="text">
+            <button id="button1" onclick="task7()">Enter</button>
+        </div>
+        <div id="div2">
+            <p id="p1">OUTPUT</p>
+            <pre>
+                <div id="div4"></div>
+            </pre>
+        </div>
+    </div>
+    <script src="particles.js-master/particles.js"></script>
+    <script src="particles.js-master/demo/js/app.js"></script>
+</body>
+
+</html>
